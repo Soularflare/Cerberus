@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "402806789529",
+    "firebase_url": "https://cerberus-b98de.firebaseio.com",
+    "project_id": "cerberus-b98de",
+    "storage_bucket": "cerberus-b98de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402806789529:android:6e1c7602e34f1e24",
+        "android_client_info": {
+          "package_name": "cerberus.sanjosestate.org.cerberus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402806789529-76sm2s476eha5gvc9hgndbm2pee3clp2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cerberus.sanjosestate.org.cerberus",
+            "certificate_hash": "1bfacde2b06f7d71a60743fdeb3f39dd944823b0"
+          }
+        },
+        {
+          "client_id": "402806789529-qnpd687l8f4hk64s3gprt1bm7ft0vlnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkOiuvefq4iBO3RHnRBfkPQlMOJNzaIsM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402806789529-qnpd687l8f4hk64s3gprt1bm7ft0vlnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402806789529:android:fd4b93c8ac86c84b",
+        "android_client_info": {
+          "package_name": "com.project.cerberus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402806789529-qnpd687l8f4hk64s3gprt1bm7ft0vlnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkOiuvefq4iBO3RHnRBfkPQlMOJNzaIsM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
