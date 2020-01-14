@@ -48,7 +48,7 @@ public class Main22Activity extends AppCompatActivity implements  DatabaseProvid
         }
         Button Streambtn = findViewById(R.id.stream_act);
         Button Tokenbtn = findViewById(R.id.token_act);
-        server = new Server(-1, "User", "IP-address", 64738, "User", "hackme");
+        server = new Server(-1, "User", "IP-address", 64738, "User", "hackme");             //change IP-address to your external IP
 //        this.mDatabaseProvider = (DatabaseProvider) this;
 
 
