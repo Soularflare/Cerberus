@@ -1,0 +1,30 @@
+package com.project.cerberus.jumble.net;
+
+public enum JumbleTCPMessageType {
+    Version,
+    UDPTunnel,
+    Authenticate,
+    Ping,
+    Reject,
+    ServerSync,
+    ChannelRemove,
+    ChannelState,
+    UserRemove,
+    UserState,
+    BanList,
+    TextMessage,
+    PermissionDenied,
+    ACL,
+    QueryUsers,
+    CryptSetup,
+    ContextActionModify,
+    ContextAction,
+    UserList,
+    VoiceTarget,
+    PermissionQuery,
+    CodecVersion,
+    UserStats,
+    RequestBlob,
+    ServerConfig,
+    SuggestConfig
+}
