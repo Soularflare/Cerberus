@@ -48,7 +48,7 @@ public class Main22Activity extends AppCompatActivity implements  DatabaseProvid
         }
         Button Streambtn = findViewById(R.id.stream_act);
         Button Tokenbtn = findViewById(R.id.token_act);
-        server = new Server(-1, "User", "73.66.38.97", 64738, "User", "hackme");
+        server = new Server(-1, "User", "IP-address", 64738, "User", "hackme");
 //        this.mDatabaseProvider = (DatabaseProvider) this;
 
 
@@ -85,7 +85,7 @@ public class Main22Activity extends AppCompatActivity implements  DatabaseProvid
 //        int port;
 //        Server server;
 //        String name = "User";
-//        String host = "73.66.38.97";
+//        String host = "IP-address";
 //        port = 64738;
 //        String username = "User";
 //        String password = "hackme";
