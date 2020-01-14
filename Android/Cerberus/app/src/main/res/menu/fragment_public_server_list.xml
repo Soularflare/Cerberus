@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:plumble="http://schemas.android.com/apk/res-auto">
+    <!--<item android:icon="@drawable/ic_action_match" android:id="@id/menu_match_server" android:orderInCategory="0" android:title="@string/server_match" plumble:showAsAction="ifRoom" />-->
+    <!--<item android:icon="@drawable/ic_action_sort" android:id="@id/menu_sort_server_item" android:orderInCategory="2" android:title="@string/sort" plumble:showAsAction="ifRoom" />-->
+    <!--<item android:icon="@drawable/ic_action_search" android:id="@id/menu_search_server_item" android:orderInCategory="1" android:title="@string/search" plumble:showAsAction="ifRoom" />-->
+</menu>

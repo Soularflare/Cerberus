@@ -1,0 +1,381 @@
+<resources>
+    <string name="app_name">Cerberus</string>
+    <string name="FCM_TOKEN">FCM Token: %s</string>
+    <string name="FCM_PREF">FCM Pref: %s</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="connect">Connect</string>
+    <string name="reconnect_dialog_message">You are already connected to a server. Connect to this server instead?</string>
+    <string name="connecting_to_server">Connecting to %1$s:%2$s</string>
+    <string name="plumbleConnected">Plumble Connected</string>
+    <string name="connected">Connected</string>
+    <string name="cancel_reconnect">Cancel reconnect</string>
+    <string name="mute">Mute</string>
+    <string name="deafen">Deafen</string>
+    <string name="overlay">Overlay</string>
+    <string name="status_notify_muted">Muted.</string>
+    <string name="status_notify_muted_and_deafened">Muted and deafened.</string>
+    <string name="notification_message">%1$s: %2$s</string>
+    <string name="tts_failed">TTS failed to initialize</string>
+    <string name="confirm_delete_server">Are you sure you want to delete this server?</string>
+    <string name="delete">Delete</string>
+    <string name="pressKey">Press a hardware key to bind to push-to-talk.</string>
+    <string name="pressKeyInfo">Note: due to limitations in Android, the app must be open to use hardware key push to talk.</string>
+    <string name="reset_key">Reset Key</string>
+    <string name="generateCertFailure">Failed to generate certificate.</string>
+    <string name="generateCertProgress">Generating certificate…</string>
+    <string name="generateCertSuccess">Your certificate has been set and saved as %s!</string>
+    <string name="certificate_not_valid">Could not load certificate \'%s\'!</string>
+    <string name="trust_cleared">Trust database cleared</string>
+    <string name="audioInputMethod">Transmit Mode</string>
+    <string name="add">Add</string>
+    <string name="invalid_host">Invalid host</string>
+    <string name="invalid_password">Invalid password.</string>
+    <string name="invalid_port_range">Invalid port (0–65535)</string>
+    <string name="server_host">Address</string>
+    <string name="server_label">Label</string>
+    <string name="server_password">Password</string>
+    <string name="server_port">Port</string>
+    <string name="server_username">Username</string>
+    <string name="default_server_port">64738</string>
+    <!-- common -->
+    <string name="save">Save</string>
+
+    <!-- home*.xml -->
+    <string name="timer_format">%1$02d:%2$02d:%3$02d</string>
+    <string name="timerValue">00:00:00</string>
+    <string name="timer">Timer:</string>
+    <string name="start_broadcast">Start Livestream</string>
+    <string name="stop_broadcast">Stop Livestream</string>
+    <string name="broadcasting">You Are Live - Tap to Stop</string>
+    <string name="img_content">Cool Mic Logo</string>
+    <string name="description_pbGainMeterLeft">Gain for left channel</string>
+    <string name="description_pbGainMeterRight">Gain for right channel</string>
+    <string name="description_pbVuMeterRight">VU-Meter for left channel</string>
+    <string name="description_pbVuMeterLeft">VU-Meter for right channel</string>
+    <string name="description_rbPeakLeft">Peak indicator for left channel</string>
+    <string name="description_rbPeakRight">Peak indicator for right channel</string>
+
+    <!-- main.xml -->
+    <string name="sample_rate">Sample Rate</string>
+    <string name="channel_configuration">Channel Configuration</string>
+    <string name="quality_level">Quality Level</string>
+
+    <!-- settings.xml -->
+    <string name="settings_title">Title</string>
+    <string name="settings_artist">Artist</string>
+    <string name="settings_genre">Genre</string>
+
+    <!-- connection_setting.xml -->
+    <string name="settings_server">Server</string>
+    <string name="settings_username">Username</string>
+    <string name="settings_password">Password</string>
+    <string name="settings_show_password">Show Password</string>
+    <string name="settings_mountpoint">Mountpoint</string>
+    <string name="settings_mountpoints">mountpoints</string>
+    <string name="lblListeners">Listeners:</string>
+    <string name="txtListeners">0 ( Max: 0 )</string>
+    <string name="formatListeners">%1$d ( Max: %2$d )</string>
+    <string name="txtStateFormat">%1$s%2$s</string>
+    <string name="txtStateFormatError"> ( Error: %1$d )</string>
+    <string name="cmd_connection_qrcode">Scan QRCode</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="plumbleDisconnected">Plumble Disconnected</string>
+    <string name="migration_certificate_begin">Beginning certificate migration…</string>
+
+    <string name="migration_certificate_success">Successfully migrated certificate!</string>
+    <string name="information">Information</string>
+    <string name="change_requires_reconnect">A reconnect is required for this change to take effect.</string>
+
+    <!-- General -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_general_title">Title</string>
+    <string name="pref_title_general_artist">Artist</string>
+
+    <string name="pref_default_general_title"></string>
+    <string name="pref_default_general_artist"></string>
+
+    <!-- Connection -->
+    <string name="pref_header_connection">Connection</string>
+    <string name="pref_title_connection_address">Server</string>
+    <string name="pref_title_connection_username">Username</string>
+    <string name="pref_title_connection_mountpoint">Mountpoint</string>
+    <string name="pref_title_connection_password">Password</string>
+
+    <string name="pref_default_connection_address">source.coolmic.net:80</string>
+    <string name="pref_default_connection_username">coolmic</string>
+    <string name="pref_default_connection_password">12345</string>
+    <string name="pref_default_connection_mountpoint">cmts01-%1$s.opus</string>
+
+    <!-- Audio -->
+    <string name="pref_header_audio">Audio</string>
+
+    <string name="pref_title_audio_codec">Codec</string>
+    <string name="pref_title_audio_samplerate">Samplerate</string>
+    <string name="pref_title_audio_channels">Channel Configuration</string>
+    <string name="pref_title_audio_quality">Quality Level</string>
+
+    <string name="pref_default_audio_codec">audio/ogg; codec=opus</string>
+    <string name="pref_default_audio_samplerate">48000</string>
+    <string name="pref_default_audio_channels">1</string>
+    <string name="pref_default_audio_quality">-0.1</string>
+    <string name="prefs_header_utilities">Utilities</string>
+    <string name="pref_title_utility_connection_default">Use Cool Mic Test Server</string>
+    <string name="pref_title_utility_qr_scan">QR Code Scan</string>
+    <string name="pref_title_utility_permission_check">Permission Check</string>
+    <string name="menu_action_settings">Settings</string>
+    <string name="menu_action_help">Help</string>
+    <string name="menu_action_quit">Quit</string>
+    <string name="menu_action_about">About</string>
+    <string name="menu_action_default">No appropriate menu action</string>
+    <string name="popup_about_cmd_dismiss">Dismiss</string>
+    <string name="popup_about_lbl_version">Version:</string>
+    <string name="popup_about_lbl_buildtype">Build Type:</string>
+    <string name="popup_about_lbl_git_branch">GIT Branch:</string>
+    <string name="popup_about_lbl_git_revision">GIT Commit:</string>
+    <string name="popup_about_lbl_git_dirty">GIT Dirty:</string>
+
+    <string name="aboutactivity_copy_string">Cool Mic App Report\nVersion: %1$s\nBuild Type: %2$s\nGIT Branch: %3$s\nGIT Revision: %4$s\nGIT Branch: %5$s</string>
+    <string name="aboutactivity_copied_string">Cool Mic Report copied to clipboard</string>
+
+    <string-array name="pref_titles_audio_channels">
+        <item>Mono (1 Channel)</item>
+        <item>Stereo (2 Channels)</item>
+    </string-array>
+
+    <string-array name="pref_titles_audio_codec">
+        <item>Ogg/Opus</item>
+        <item>Ogg/Vorbis</item>
+    </string-array>
+
+    <string-array name="pref_values_audio_samplerate">
+        <item>8000</item>
+        <item>11025</item>
+        <item>16000</item>
+        <item>22050</item>
+        <item>44100</item>
+        <item>48000</item>
+    </string-array>
+
+    <string-array name="pref_values_audio_codec">
+        <item>audio/ogg; codec=opus</item>
+        <item>audio/ogg; codec=vorbis</item>
+    </string-array>
+
+    <string-array name="pref_values_audio_channels">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="pref_values_audio_quality">
+        <item>-0.1</item>
+        <item>0</item>
+        <item>0.1</item>
+        <item>0.2</item>
+        <item>0.3</item>
+        <item>0.4</item>
+        <item>0.5</item>
+        <item>0.6</item>
+        <item>0.7</item>
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- VuMeter -->
+    <string name="pref_header_vumeter">Vu-Meter</string>
+    <string name="pref_title_vumeter_interval">Interval</string>
+    <string name="pref_default_vumeter_interval">40</string>
+    <string name="mainactivity_broadcast_url_copied">Livestream URL copied to clipboard</string>
+    <string name="mainactivity_connectiondetails_unset">Set the connection details</string>
+    <string name="mainactivity_callback_error">there was an error! Error: %1$s</string>
+    <string name="mainactivity_callback_streamstate">Stream State: State: %1$d Error: %2$d</string>
+    <string name="question_stop_broadcasting">Stop Livestream?</string>
+    <string name="exception_start_failed">Failed to start Livestream: %1$d</string>
+    <string name="exception_failed_metadata_quality">Failed to set Metadata or Quality: %1$d</string>
+    <string name="exception_failed_reconnect">Could not set Reconnection Mode: %1$d</string>
+    <string name="exception_failed_start_general">"Failed to start Livestream. "</string>
+    <string name="settings_conn_defaults_loaded">Cool Mic Test Server Data Loaded</string>
+    <string name="lblState">State:</string>
+    <string name="txtState">N/A</string>
+
+    <string-array name="pref_titles_vumeter_interval">
+        <item>Very Fast</item>
+        <item>Fast</item>
+        <item>Normal</item>
+        <item>Slow</item>
+        <item>Very Slow</item>
+        <item>Disabled</item>
+    </string-array>
+
+    <string-array name="pref_values_vumeter_interval">
+        <item>10</item>
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+        <item>80</item>
+        <item>0</item>
+    </string-array>
+
+    <!-- Backend errors -->
+    <string name="coolmic_error_p0">No error</string>
+    <string name="coolmic_error_n1">Generic, unknown error</string>
+    <string name="coolmic_error_n8">Function not implemented</string>
+    <string name="coolmic_error_n9">Bad address</string>
+    <string name="coolmic_error_n10">Invalid argument</string>
+    <string name="coolmic_error_n11">Not enough space</string>
+    <string name="coolmic_error_n12">Device or resource busy</string>
+    <string name="coolmic_error_n13">Operation not permitted</string>
+    <string name="coolmic_error_n14">Connection refused</string>
+    <string name="coolmic_error_n15">Connected.</string>
+    <string name="coolmic_error_n16">Unconnected.</string>
+    <string name="coolmic_error_n17">TLS requested but not supported by peer</string>
+    <string name="coolmic_error_n18">LS connection can not be established because of bad certificate</string>
+    <string name="coolmic_error_n19">Invalid request code</string>
+    <string name="coolmic_error_n20">Retry last action</string>
+
+    <string name="coolmic_cs_n1">Invalid</string>
+    <string name="coolmic_cs_p1">Connecting</string>
+    <string name="coolmic_cs_p2">Connected</string>
+    <string name="coolmic_cs_p3">Disconnecting</string>
+    <string name="coolmic_cs_p4">Disconnected</string>
+    <string name="coolmic_cs_p5">Con. Error</string>
+    <string name="broadcast_stop_message">Livestream stopped</string>
+    <string name="coolmic_help_url">http://coolmic.net/help</string>
+    <string name="coolmic_back_message">Tap [ Ok ] to stop Livestream.</string>
+    <string name="aboutactivity_cmd_about_copy">Copy to Clipboard</string>
+    <string name="settingsactivity_toast_permission_denied">Cool Mic needs the requested permissions for recording and streaming. Without them it is quite useless</string>
+    <string name="settingsactivity_url_invalid">Please scan a valid URI</string>
+    <string name="settingsactivity_qrcode_loaded">Loaded settings from QR code</string>
+    <string name="settingsactivity_toast_permissions_granted">All required permissions granted</string>
+    <string name="settingsactivity_permissions_all_granted">All permissions granted! Thank you</string>
+    <string name="settingsactivity_permission_not_granted">Permission %1$s was not granted</string>
+    <string name="mainactivity_native_components_init_error">Could not initialize native components :( Blocking controls</string>
+    <string name="mainactivity_native_components_previnit_error">Previous problem detected with native components :( Blocking controls</string>
+    <string name="mainactivity_native_components_unknown_state">Native components in unknown state</string>
+    <string name="mainactivity_quit_cancel">Cancel</string>
+    <string name="mainactivity_quit_ok">Ok</string>
+    <string name="mainactivity_toast_permissions_missing">Missing Permissions. Please request them in the Settings.</string>
+    <string name="mainactivity_toast_native_components_not_ready">Native components not ready.</string>
+    <string name="mainactivity_toast_check_connection">Check Internet Connection</string>
+    <string name="mainactivity_toast_check_connection_details">Set the connection details</string>
+    <string name="cmdStartInitializing">Connecting</string>
+    <string name="popup_about_lbl_buildts">Build TS:</string>
+    <string name="menu_action_share">Share Stream</string>
+    <string name="menu_action_share_default">Cool Mic unconfigured! Please set Connection Info!</string>
+    <string name="menu_action_share_title">Share Stream URL to...</string>
+    <string name="settings_qrcode_invalid_noauth_message">This is a Listen URL (no source credentials): %1$s. Open in external app?</string>
+    <string name="settings_qrcode_invalid_noauth_title">QRCode based configuration</string>
+
+
+    <string name="coolmic_tos">By using Cool Mic test servers, you must agree to stream only material that is your own or that which has explicit permission to be streamed under the Creative Commons Attribution-ShareAlike 4.0 International Public License (CC BY-SA 4.0). Please see https://creativecommons.org/licenses/by-sa/4.0/legalcode for details.</string>
+    <string name="coolmic_tos_accept">Accept</string>
+    <string name="coolmic_tos_cancel">Cancel</string>
+    <string name="coolmic_tos_title">Cool Mic Test Servers Terms of Service</string>
+    <string name="aboutactivity_cmd_about_open_pp">Open Privacy Policy(Browser)</string>
+    <string name="aboutactivity_cmd_about_open_licenses">Open (Third Party) License Declaration(Browser)</string>
+    <string name="url_privacy_policy">http://coolmic.net/privacypolicy/</string>
+    <string name="url_licenses">http://coolmic.net/licenses/</string>
+    <string name="mainactivity_missing_connection_details_title">Missing connection details</string>
+    <string name="mainactivity_missing_connection_details_body">You seem to have no connection details set. Should we load the Test System Data? If you decline please set them in the Settings.</string>
+    <string name="mainactivity_missing_connection_details_no">No.</string>
+    <string name="mainactivity_missing_connection_details_yes">Yes</string>
+    <string name="pref_title_connection_reconnect">Auto-Reconnect</string>
+    <string name="pref_option_connection_reconnect_off">off</string>
+    <string name="pref_option_connection_reconnect_on">on</string>
+    <string name="reconnecting">Reconnecting</string>
+    <string name="reconnect_in">Reconnecting in %d Sec</string>
+    <string name="input_gain">Input Gain:</string>
+
+    <!-- Jumble -->
+    <string name="audio_max_bandwidth">Server maximum network bandwidth is only %1$d kbit/s. Audio quality auto-adjusted to %2$d kbit/s (%3$d ms)</string>
+
+    <string name="chat_notify_moved">%1$s moved in from %2$s by %3$s.</string>
+
+    <string name="chat_notify_muted_deafened">Muted and deafened.</string>
+
+    <string name="chat_notify_muted">Muted.</string>
+
+    <string name="chat_notify_unmuted">Unmuted.</string>
+
+    <string name="chat_notify_unmuted_undeafened">Unmuted and undeafened.</string>
+
+    <string name="chat_notify_now_muted_deafened">%s is now muted and deafened.</string>
+
+    <string name="chat_notify_now_muted">%s is now muted.</string>
+
+    <string name="chat_notify_now_unmuted">%s is now unmuted.</string>
+
+    <string name="chat_notify_now_unmuted_undeafened">%s is now unmuted and undeafened.</string>
+
+    <string name="chat_notify_muted_deafened_self_by_actor">You were muted and deafened by %s.</string>
+
+    <string name="chat_notify_unmuted_undeafened_self_by_actor">You were unmuted and undeafened by %s.</string>
+
+    <string name="chat_notify_muted_self_by_actor">You were muted by %s.</string>
+
+    <string name="chat_notify_unmuted_self_by_actor">You were unmuted by %s.</string>
+
+    <string name="chat_notify_undeafened_self_by_actor">You were undeafened by %s.</string>
+
+    <string name="chat_notify_suppressed_self">You were suppressed.</string>
+
+    <string name="chat_notify_unsuppressed_self">You were unsuppressed.</string>
+
+    <string name="chat_notify_unsuppressed_self_by_actor">You were unsuppressed by %s.</string>
+
+    <string name="chat_notify_connected">%s connected.</string>
+
+    <string name="chat_notify_disconnected">%s disconnected.</string>
+
+    <string name="chat_notify_kick_ban_self">You were kicked and banned from the server by %1$s: %2$s.</string>
+
+    <string name="chat_notify_kick_self">You were kicked from the server by %1$s: %2$s.</string>
+
+    <string name="chat_notify_kick_ban">%3$s was kicked and banned from the server by %1$s: %2$s.</string>
+
+    <string name="chat_notify_kick">%3$s was kicked from the server by %1$s: %2$s.</string>
+
+    <string name="chat_notify_self_recording_started">Recording started</string>
+
+    <string name="chat_notify_self_recording_stopped">Recording stopped</string>
+
+    <string name="chat_notify_user_recording_started">%s started recording.</string>
+
+    <string name="chat_notify_user_recording_stopped">%s stopped recording.</string>
+
+    <string name="chat_notify_user_joined_channel">%s entered channel.</string>
+
+    <string name="chat_notify_user_left_channel">%1$s moved to %2$s.</string>
+
+    <string name="chat_notify_user_joined_channel_by">%1$s moved in from %2$s by %3$s.</string>
+
+    <string name="chat_notify_user_left_channel_by">%1$s moved to %2$s by %3$s.</string>
+
+    <string name="bluetooth_connected">Bluetooth connected</string>
+
+    <string name="bluetooth_disconnected">Bluetooth disconnected</string>
+
+    <string name="deny_reason_channel_name">Denied: Invalid channel name.</string>
+
+    <string name="deny_reason_text_too_long">Denied: Text message too long.</string>
+
+    <string name="deny_reason_no_operation_temp">Denied: Operation not permitted in temporary channel.</string>
+
+    <string name="deny_reason_no_certificate">You need a certificate to perform this operation.</string>
+
+    <string name="deny_reason_invalid_username">Invalid username.</string>
+
+    <string name="deny_reason_channel_full">Channel is full.</string>
+
+    <string name="deny_reason_channel_nesting">Channel nesting limit reached.</string>
+
+    <string name="deny_reason_other">Reason: %s</string>
+
+    <string name="perm_denied">Permission denied.</string>
+
+    <string name="server">Server</string>
+
+    <string name="the_server">the server</string>
+</resources>

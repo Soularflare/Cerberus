@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   <!-- <GridView android:gravity="center" android:id="@id/server_list_grid" android:padding="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:horizontalSpacing="10.0dip" android:verticalSpacing="10.0dip" android:stretchMode="columnWidth" android:columnWidth="320.0dip" android:numColumns="auto_fit" android:layout_above="@id/donate_box" android:fastScrollEnabled="true" />
+    <TextView android:gravity="center" android:id="@id/server_list_grid_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_servers" android:layout_centerInParent="true" android:fontFamily="sans-serif-light" />
+    <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:gravity="center" android:id="@id/donate_box" android:background="?colorPrimary" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="Plumble development is possible thanks to donations! Click here to get the donator edition." android:layout_alignParentBottom="true" /> -->
+</RelativeLayout>
