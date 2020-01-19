@@ -6,6 +6,6 @@ Cerberus is a security system running on a Raspberry Pi with a Python-based Djan
 
 ## Required Libraries and Dependencies
 - OpenCV 4
-- pyfcm
+- Pyfcm
 
 ## Getting Started
