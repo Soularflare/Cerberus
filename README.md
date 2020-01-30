@@ -9,5 +9,6 @@ Cerberus is a security system running on a Raspberry Pi with a Python-based Djan
 - Pyfcm
 - Django
 - Virtualenv
+- Localtunnel
 
 ## Getting Started
