@@ -26,3 +26,6 @@ However this command requires additional dependencies
 `sudo apt-get install libjasper-dev`   
 `sudo apt-get install libqtgui4`  
 `sudo apt-get install libqt4-test`  
+
+### **Update!** Localtunnel deprecation
+As of January 2020, Localtunnel servers have seemed to become unresponsive. Localtunnel was used with this project to provide remote access to the Django server. Thus if you desire to access the server from outside the network, a new tunneling service must be used, such as Ngrok or Pagekite. However these services are fremium and not open-source, requiring payment for extra features such as a static domain, which is necessary for this project. As such these services are outside the scope of this project, but can be implemented if desired by replacing the
