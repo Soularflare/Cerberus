@@ -12,3 +12,17 @@ Cerberus is a security system running on a Raspberry Pi with a Python-based Djan
 - Localtunnel
 
 ## Getting Started
+These instructions will allow you to get a copy of the project up and running on your own Raspberry Pi as well as running code for the mobile app for your own personal use.
+
+### Installing prerequesites
+The software listed above must be installed onto your Raspberry Pi for the project to function. OpenCV4 may require additional software depending on how it is installed on your system. The simplest method would be to run  
+`pip3 install opencv-python`
+
+However this command requires additional dependencies   
+`sudo apt-get install libcblas-dev`  
+`sudo apt-get install libhdf5-dev`  
+`sudo apt-get install libhdf5-serial-dev`  
+`sudo apt-get install libatlas-base-dev`  
+`sudo apt-get install libjasper-dev`   
+`sudo apt-get install libqtgui4`  
+`sudo apt-get install libqt4-test`  
