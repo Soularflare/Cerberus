@@ -39,5 +39,5 @@ and add `@/home/pi/mumble.sh` and `@lxterminal` to the end of it so that the mum
 `sudo nano ~/.bashrc`  
 and adding the command to execute the file at the bottom  
 `python /path/to/python_file &`  
-'sh /path/to/sh_file &`  
+`sh /path/to/sh_file &`  
 make sure to add & at the end to ensure that the program will run continuously in the background
