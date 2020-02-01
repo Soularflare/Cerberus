@@ -31,4 +31,5 @@ However this command requires additional dependencies
 As of January 2020, Localtunnel servers have seemed to become unresponsive. Localtunnel was used with this project to provide remote access to the Django server. Thus if you desire to access the server from outside the local network, a new tunneling service must be used, such as Ngrok or Pagekite. However these services are fremium and not open-source, requiring payment for extra features such as a static domain, which is necessary for this project. As such these services are outside the scope of this project, but can be implemented if desired by replacing the lt_bootup file with whatever script is needed.
 
 ### Installing Django app and bootup files
-
+After the dependencies are installed, the Django app and bootup files can be downloaded into the main directory of your Raspberry Pi. Make sure all of the .sh files are made executable by using  
+`sudo chmod +x <filename>`  
