@@ -33,3 +33,11 @@ As of January 2020, Localtunnel servers have seemed to become unresponsive. Loca
 ### Installing Django app and bootup files
 After the dependencies are installed, the Django app and bootup files can be downloaded into the main directory of your Raspberry Pi. Make sure all of the .sh files are made executable by using  
 `sudo chmod +x <filename>`  
+Next edit the autostart file using  
+`sudo nano /etc/xdg/lxsession/LXDE-pi/autostart`  
+and add `@/home/pi/mumble.sh` and `@lxterminal` to the end of it so that the mumble client and a terminal can be opened at bootup. The rest of the files can be run by editting the .bashrc file in the main directory using  
+`sudo nano ~/.bashrc`  
+and adding the command to execute the file at the bottom  
+`python /path/to/python_file &`  
+'sh /path/to/sh_file &`  
+make sure to add & at the end to ensure that the program will run continuously in the background
