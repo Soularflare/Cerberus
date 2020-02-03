@@ -63,4 +63,4 @@ The pinouts selected for the components are the following:
   - Pin 37(GPIO 26)
   - Pin 39(GND)
 
-The pinout selection can be reconfigured by altering
+The pinout selection can be reconfigured by altering the pin selections in bootup.py and Shutdown.py. The addition of a shutdown button is a completely optional component that provides a method to safely shut down the Raspberry Pi externally and can be ignored completely if desired.
