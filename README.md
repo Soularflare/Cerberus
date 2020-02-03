@@ -43,3 +43,24 @@ and adding the command to execute the file at the bottom
 make sure to add & at the end to ensure that the program will run continuously in the background
 
 ### Acquiring and assembling the hardware  
+![IMG_20200203_010155670](https://user-images.githubusercontent.com/30604147/73686224-71f51e80-467c-11ea-97a8-bf1a53012274.jpg)
+
+For this project you will need the following:
+- Raspberry Pi
+- Picamera
+- PIR motion sensor
+- portable speaker
+- jumper wires
+- button for manual shutdown of the Raspberry Pi(optional)
+
+The pinouts selected for the components are the following:  
+- **PIR Motion Sensor**
+  - Pin 2(+5v)
+  - Pin 11(GPIO 17)
+  - Pin 6(GND)
+
+- **Shutdown Button**
+  - Pin 37(GPIO 26)
+  - Pin 39(GND)
+
+The pinout selection can be reconfigured by altering
