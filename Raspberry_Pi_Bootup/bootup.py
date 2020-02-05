@@ -4,7 +4,7 @@ import requests
 
 import RPi.GPIO as GPIO
 
-URL = "https://cerberus.localtunnel.me/send"
+URL = "Localtunnel_link"        //change to your specific Localtunnel url
 
 
 
