@@ -49,17 +49,17 @@ public class Main22Activity extends AppCompatActivity implements  DatabaseProvid
         Button Streambtn = findViewById(R.id.stream_act);
         Button Tokenbtn = findViewById(R.id.token_act);
         server = new Server(-1, "User", "IP-address", 64738, "User", "hackme");             //change IP-address to your external IP
-//        this.mDatabaseProvider = (DatabaseProvider) this;
+
 
 
         mDatabase.addServer(server);
 
-//       server =  ServerEditFragment.createServer();         //send server obj as param?
+
 
 
         new com.project.cerberus.mumbleclient.app.ServerConnectTask(this, this.mDatabase).execute(server);
 
-        //this.dismiss();       #dismisses dialog box
+
 
 
         Streambtn.setOnClickListener(new View.OnClickListener() {
@@ -77,40 +77,7 @@ public class Main22Activity extends AppCompatActivity implements  DatabaseProvid
     }
 
 
-//    private Server getServer() {
-//        return getArguments() != null ? (Server) getArguments().getParcelable("server") : null;
-//    }
 
-//    public Server createServer() {
-//        int port;
-//        Server server;
-//        String name = "User";
-//        String host = "IP-address";
-//        port = 64738;
-//        String username = "User";
-//        String password = "hackme";
-//
-////        if (getServer() != null) {
-////            server = getServer();
-////            server.setName(name);
-////            server.setHost(host);
-////            server.setPort(port);
-////            server.setUsername(username);
-////            server.setPassword(password);
-////            if (shouldCommit) {
-////                this.mDatabaseProvider.getDatabase().updateServer(server);
-////            }
-////        } else {
-//        server = new Server(-1, name, host, port, username, password);
-////            if (shouldCommit) {
-//        this.mDatabaseProvider.getDatabase().addServer(server);
-////            }
-//
-////        if (shouldCommit) {
-////            this.mListener.serverInfoUpdated();
-////        }
-//        return server;
-//    }
 
 
 
@@ -120,17 +87,7 @@ public class Main22Activity extends AppCompatActivity implements  DatabaseProvid
     }
 
 
-//    private void generateCertificate() {
-//        final Settings settings = Settings.getInstance(this);
-//        new PlumbleCertificateGenerateTask(this) {
-//            protected void onPostExecute(File result) {
-//                super.onPostExecute(result);
-//                settings.setCertificatePath(result.getAbsolutePath());
-////                com.morlunk.mumbleclient.wizard.WizardCertificateFragment.this.mGenerateButton.setEnabled(false);
-////                com.morlunk.mumbleclient.wizard.WizardCertificateFragment.this.mNavigation.next();
-//            }
-//        }.execute(new Void[0]);
-//    }
+
     @Override
     public void onRequestPermissionsResult(int requestCode,
                                            String[] permissions, int[] grantResults) {
@@ -139,30 +96,24 @@ public class Main22Activity extends AppCompatActivity implements  DatabaseProvid
                 // If request is cancelled, the result arrays are empty.
                 if (grantResults.length > 0
                         && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    // permission was granted, yay! Do the
-                    // contacts-related task you need to do.
-//                    generateCertificate();
+
                 } else {
-                    // permission denied, boo! Disable the
-                    // functionality that depends on this permission.
+
                 }
                 return;
             }
             case 2: {
                 // If request is cancelled, the result arrays are empty.
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    // permission was granted, yay!
-                    Log.d("Permissions", "Permission RECORD_AUDIO was given. Nice!");
+
+                    Log.d("Permissions", "Permission RECORD_AUDIO was given!");
                 } else {
-                    // permission denied, boo! Disable the
-                    // functionality that depends on this permission.
-                    Log.d("Permissions", "Permission RECORD_AUDIO was NOT given. D'oh!");
+
+                    Log.d("Permissions", "Permission RECORD_AUDIO was NOT given!");
                 }
                 return;
             }
 
-            // other 'case' lines to check for other
-            // permissions this app might request.
         }
     }
 }
