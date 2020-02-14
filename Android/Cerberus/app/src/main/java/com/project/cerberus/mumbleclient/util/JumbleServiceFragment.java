@@ -84,7 +84,6 @@ public abstract class JumbleServiceFragment extends Fragment {
     }
 
     public IPlumbleService getService() {
-        Log.v("meow", "meow");
         return mServiceProvider.getService();
     }
 }
