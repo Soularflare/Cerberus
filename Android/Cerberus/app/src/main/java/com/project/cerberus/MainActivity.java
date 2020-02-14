@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     String token;
     Button button;
     TextView textView;
-    String app_server_url = "https://cerberus.localtunnel.me/insert/?fcm_token="; //change it to your server address
+    String app_server_url = "localtunnel_url/insert/?fcm_token="; //change localtunnel_url to your server address
     AlertDialog.Builder builder;
 
     @Override
