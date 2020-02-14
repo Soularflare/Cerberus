@@ -40,19 +40,10 @@ public class StreamActivity extends AppCompatActivity implements JumbleServicePr
         public void onServiceConnected(ComponentName name, IBinder service) {
             mService = ((PlumbleService.PlumbleBinder) service).getService();
             mService.setSuppressNotifications(true);
-//            mService.registerObserver(mObserver);
-            mService.clearChatNotifications(); // Clear chat notifications on resume.
-//            mDrawerAdapter.notifyDataSetChanged();
-//
-//            for (JumbleServiceFragment fragment : mServiceFragments)
-//                fragment.setServiceBound(true);
 
-            // Re-show server list if we're showing a fragment that depends on the service.
-//            if(getSupportFragmentManager().findFragmentById(R.id.content_frame) instanceof JumbleServiceFragment &&
-//                    !mService.isConnected()) {
-//                loadDrawerFragment(DrawerAdapter.ITEM_FAVOURITES);
-//            }
-//            updateConnectionState(getService());
+            mService.clearChatNotifications(); // Clear chat notifications on resume.
+
+
         }
 
         @Override
@@ -79,14 +70,14 @@ public class StreamActivity extends AppCompatActivity implements JumbleServicePr
         talk_button = (Button) findViewById(R.id.Talk);
         WebView myWebView = (WebView) findViewById(R.id.webview);
         myWebView.setWebViewClient(new WebViewClient());
-        myWebView.loadUrl("https://cerberus.localtunnel.me/stream");
+        myWebView.loadUrl("localtunnel_url/stream");
 
 
 
         start_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                myWebView.loadUrl("https://cerberus.localtunnel.me/stream");
+                myWebView.loadUrl("localtunnel_url/stream");
                 if (start_button_debounce_active)
                     return;
                 start_button_debounce_active = true;
@@ -103,34 +94,10 @@ public class StreamActivity extends AppCompatActivity implements JumbleServicePr
         stop_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                myWebView.loadUrl("https://cerberus.localtunnel.me");
+                myWebView.loadUrl("localtunnel_url");
             }
         });
-//        talk_button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Mumble.UserState.Builder usb = Mumble.UserState.newBuilder();
-//                usb.setSelfMute(true);
-//                usb.setSelfDeaf(false);
-//                getConnection().sendTCPMessage(usb.build(), JumbleTCPMessageType.UserState);
 
-////                if(mSettings.isMuted() || mSettings.isDeafened()) {
-////                    mSettings.setMutedAndDeafened(false, false);
-////                    Log.v("meow","muted");
-////                }
-////                else{
-////                    mSettings.setMutedAndDeafened(true, true);
-////                    Log.v("meow"," not muted");
-////                }
-//
-//                IJumbleSession session = mServiceProvider.getService().getSession();
-//                IUser self = session.getSessionUser();
-//                boolean muted = !self.isSelfMuted();
-//                boolean deafened = !self.isSelfDeafened();
-//                session.setSelfMuteDeafState(muted, deafened);
-//                supportInvalidateOptionsMenu();
-//            }
-//        });
 
     }
 
@@ -147,12 +114,12 @@ public class StreamActivity extends AppCompatActivity implements JumbleServicePr
 
             case R.id.menu_deafen_button:
 
-                // Do Activity menu item stuff here
+
                 return false;
 
             case R.id.menu_mute_button:
 
-                // Not implemented here
+
                 return false;
             default:
                 break;
@@ -168,7 +135,6 @@ public class StreamActivity extends AppCompatActivity implements JumbleServicePr
 
     @Override
     public IPlumbleService getService() {
-        Log.v("meow", "meow1");
         return mService;
     }
 
