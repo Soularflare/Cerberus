@@ -39,7 +39,7 @@ def fcm_insert(request):
 #the method which sends the notification
 def send_notifications(request): 
     path_to_fcm = "https://fcm.googleapis.com"
-    server_key = 'AAAAXckn1Zk:APA91bEXGwTI4AxS0xAgqnXC2DiSJgDRNp0FPF-07LG3_KPUQR-fImBEXc14sMmlEQJFBEizM7lVop6YPm4n9vb_sHu-VwIwGvQWN-ot_fRRxrcFbHO15ISwFNABjLL-aZNdOFmijVJi'
+    server_key = 'insert your server keys here'
     reg_id = fcm_info.objects.get(id=1).fcm_token #quick and dirty way to get that ONE fcmId from table
     message_title = "ALERT"
     message_body = "Motion detected at entrance!"
