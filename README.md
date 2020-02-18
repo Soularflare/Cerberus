@@ -10,6 +10,7 @@ Cerberus is a security system running on a Raspberry Pi with a Python-based Djan
 - Django
 - Virtualenv
 - Localtunnel
+- Mumble client/server
 
 ## Getting Started
 These instructions will allow you to get a copy of the project up and running on your own Raspberry Pi as well as running code for the mobile app for your own personal use.
@@ -44,6 +45,11 @@ make sure to add & at the end to ensure that the program will run continuously i
 
 ### Firebase integration
 This project utilizes the Firebase platform to send push notifications to the user's device. In order to incorporate this feature, you must create a project on Firebase's site. Doing so will generate a server key to use in this project's views.py file in the Django folder. With this, your Django server should be able to send out push notifications using your own Firebase app.
+
+### Installing Mumble
+For this project, the Raspberry Pi runs a Mumble client and server to provide an audio feed to the app. To do this, simply run `sudo apt install mumble` and `sudo apt install mumble-server` in the command line. Next type `sudo dpkg-reconfigure mumble-server` to setup the server. In the following screens, select yes, followed by creating a password for the superuser. Next edit the server config file by typing `sudo nano /etc/mumble-server.ini` and change the following fields:  
+`registerName=HomeIntercom`  
+`serverpassword=hackme`  
 
 ### Acquiring and assembling the hardware  
 ![IMG_20200203_010155670](https://user-images.githubusercontent.com/30604147/73686224-71f51e80-467c-11ea-97a8-bf1a53012274.jpg)
