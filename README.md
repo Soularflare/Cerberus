@@ -42,6 +42,9 @@ and adding the command to execute the file at the bottom
 `sh /path/to/sh_file &`  
 make sure to add & at the end to ensure that the program will run continuously in the background
 
+### Firebase integration
+This project utilizes the Firebase platform to send push notifications to the user's device. In order to incorporate this feature, you must create a project on Firebase's site. Doing so will generate a server key to use in this project's views.py file in the Django folder. With this, your Django server should be able to send out push notifications using your own Firebase app.
+
 ### Acquiring and assembling the hardware  
 ![IMG_20200203_010155670](https://user-images.githubusercontent.com/30604147/73686224-71f51e80-467c-11ea-97a8-bf1a53012274.jpg)
 
